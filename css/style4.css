@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Work Sans';
+    src : url(../fonts/WorkSans-Regular.ttf)
+ }
+
+ @font-face {
+    font-family: 'Space Mono';
+    src : url(../fonts/SpaceMono-Regular.ttf )
+ }
+*{
+    margin:0;
+   padding: 0;
+box-sizing: border-box;}
+body {
+    background:  #2B2B2B;
+}
+
+
+
+@media only screen and (max-width:768px) {
+   .nav_2 {display: none !important;}
+    .cont_2 {display: inline-block !important;}
+    .img>img { width: 100% !important; }
+    .text1>h2 {font-size: 38px !important;}
+    .text1>p {font-size: 16px !important; width: 100% !important;}
+    .cont16 {display: none !important;}
+    .btn1 {width: 100% !important;}
+    .text1 {margin-top:30px !important;  margin-bottom:40px !important; }
+    .cont10>p {width: 100% !important;}
+    .cont15>h5{font-size: 20px !important;}
+    .cont17{display: inline-block !important;}
+    .cont17>div> input {width: 100% !important;}
+    .cont17>div>button {width: 100% !important;}
+
+
+}
+
+
+.cont_nav {
+    color: #FFFFFF ;
+    font-family: 'Work Sans';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-left:15px
+
+}
+.nav_2>div >a {
+   
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF ;
+    margin-left: 10px;
+
+}
+.nav_2>div >a>img {margin-right: 10px;
+
+}
+    
+     .cont_ul>li>a> button {
+        width: 152px;
+        height: 60px;   
+        background: #A259FF;
+        border:2px solid #A259FF ;
+        border-radius: 20px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF ;
+       
+        
+        }
+    
+   .cont_ul>li>a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    
+    
+    color: #FFFFFF;
+    }
+   
+    .cont_ul>li>a> button >img {margin-right:10px;}
+
+.text1 {margin-top: 100px;
+}
+.img_logo {
+    margin-right: 30px;
+}
+.cont_2>div>div>a>span {
+    color: #FFFFFF ;
+   font-family: 'Work Sans';
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 140%;
+   margin-left:5px;
+   
+
+       }
+
+a{text-decoration: none;}
+.butt_1 {
+background: #3B3B3B;
+
+}
+.cont-ul1{
+background: #2B2B2B;
+}
+.cont-ul1>li>a {
+text-decoration: none;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+
+
+color: #FFFFFF;
+
+}
+.btn_10 {
+width: 130px;
+height: 40px;   
+background: #A259FF;
+border:2px solid #A259FF ;
+border-radius: 20px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF ;
+
+
+}
+.btn_10>img {margin-right:10px;}
+.img >img {height:100%; }
+.text1>h2 {
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 51px;
+line-height: 110%;
+
+
+color: #FFFFFF;
+}
+.text1>p {
+    width: 460px;
+
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+
+
+color: #FFFFFF;
+}
+.btn1 {
+    padding: 0px 20px 0px 40px;
+    width: 320px;
+height: 72px;
+background: #3B3B3B;
+border: 1px solid #A259FF;
+border-radius: 20px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.cont_1 {
+    background: #3B3B3B;
+}
+.cont11>span {
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-left: 15px;
+
+}
+.cont10>p{width: 238px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;}
+.logo {margin-top:19.55px;}
+.cont14>h5 {
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+text-transform: capitalize;
+margin-bottom: 25px;
+color: #FFFFFF;
+}
+.cont14>p{
+    text-decoration: none;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+
+color: #CCCCCC;
+}
+.cont15 >h5 {
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom:25px;
+
+}
+.cont15>p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+margin-bottom:20px;
+color: #CCCCCC;
+}
+.cont16 {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.cont16>input {
+   
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    outline: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B2B2B;
+    border: 3px solid #FFFFFF; ;
+    padding: 20px;
+    
+  
+}
+.cont16>button {
+    
+  width: 100%;
+background: #A259FF;
+border-radius: 20px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+border:5px solid  #A259FF;
+}
+
+.cont17_1>input {
+    
+   height: 46px;
+   margin-top:20px;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    border-radius: 20px;
+   
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B2B2B;
+    border: 3px solid #FFFFFF; ;
+    padding-left: 20px;
+    
+}
+.cont17>div>button {
+    
+   height: 46px;
+    background: #A259FF;
+    border-radius: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    border:3px solid  #A259FF;
+}
+.cont17>div>button>img {
+    margin-right: 15px;
+}
+.hr {
+    border: 1px solid #858584;
+    margin-top: 30px;
+}
+.footer_p {
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 110%;
+
+color: #CCCCCC;
+}
